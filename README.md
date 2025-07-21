@@ -1,10 +1,15 @@
-Grofy Full-Stack Project Documentation
+# Grofy Full-Stack Project Documentation
+
 This document describes all REST API endpoints for the Grofy backend and provides an overview of the frontend structure, usage, and integration.
 
-🔗 Deployed Website
-Live URL: https://gro-fy.vercel.app/
+---
 
-You can access the full application via the above link. Use the deployed frontend to explore user registration, shopping, cart management, and order placement.
+## 🔗 Deployed Links
+
+- **Frontend Live Site:** [https://gro-fy.vercel.app/](https://gro-fy.vercel.app/)
+- **Backend Base URL:** [https://gro-fy-backend.vercel.app/](https://gro-fy-backend.vercel.app/)
+
+Use the frontend link to explore the live grocery shopping experience. All API requests are handled by the deployed backend server.
 
 ---
 
