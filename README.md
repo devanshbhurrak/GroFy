@@ -1,6 +1,10 @@
-# Grofy Full-Stack Project Documentation
-
+Grofy Full-Stack Project Documentation
 This document describes all REST API endpoints for the Grofy backend and provides an overview of the frontend structure, usage, and integration.
+
+🔗 Deployed Website
+Live URL: https://gro-fy.vercel.app/
+
+You can access the full application via the above link. Use the deployed frontend to explore user registration, shopping, cart management, and order placement.
 
 ---
 
@@ -8,7 +12,7 @@ This document describes all REST API endpoints for the Grofy backend and provide
 
 ### Base URL 
 ```
-http://localhost:4000/
+https://gro-fy-backend.vercel.app/
 ```
 
 ---
@@ -452,7 +456,7 @@ frontend/
 
 ## API Integration
 
-- All API calls use the backend at `http://localhost:4000/` (configurable via `.env`).
+- All API calls use the backend at `https://gro-fy-backend.vercel.app/` (configurable via `.env`).
 - Uses [axios](https://axios-http.com/) for HTTP requests.
 - Cookies are sent with requests for authentication (`withCredentials: true`).
 
@@ -481,7 +485,7 @@ export const fetchProducts = async () => {
 Create a `.env` file in the frontend root:
 
 ```
-VITE_API_URL=http://localhost:4000
+VITE_API_URL=https://gro-fy-backend.vercel.app/
 VITE_CURRENCY=₹
 ```
 
