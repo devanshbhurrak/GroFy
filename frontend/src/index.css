@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Outfit:wght@100..900&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+* {
+  font-family: "Outfit", "Poppins", "Fredoka", sans-serif;
+}
+
+
+@theme {
+  --color-primary: #388E3C; /* A rich, deep green for a strong brand presence */
+  --color-primary-dull: #81C784; /* A lighter, more muted green that complements the primary */
+  --color-accent-light: #F1F8E9; /* A very light, almost off-white with a subtle green/yellow tint for backgrounds or soft accents */
+}
+
+.no-scrollbar::-webkit-scrollbar{
+  display: none;
+}
